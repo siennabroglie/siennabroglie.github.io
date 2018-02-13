@@ -8,22 +8,26 @@ oriented = function(e) {
             compassHeading = e.alpha;
         }
         
+        
         //additions
         //|| or, && and, == 
+        text_area.textContent = compassHeading;
+
+
         if (compassHeading >= 315 || compassHeading <= 45)
-            {text_area.textContent = north;}
+            {text_area.textContent = "north";}
 
 
         if (compassHeading >= 45 && compassHeading <= 135)
-             {text_area.textContent = east;}
+             {text_area.textContent = "east";}
 
 
          if (compassHeading >= 135 && compassHeading <= 225)
-             {text_area.textContent = south;}
+             {text_area.textContent = "south";}
          
 
           if (compassHeading >= 225 && compassHeading <= 315)
-             {text_area.textContent = west;}
+             {text_area.textContent = "west";}
 
 
         //calls function to alter content based on heading
