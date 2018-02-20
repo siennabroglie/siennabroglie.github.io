@@ -17,19 +17,19 @@ oriented = function(e) {
 
 
         if (compassHeading >= 315 || compassHeading <= 45)
-            {text_area.textContent = "22 \n you are frozen";}
+            {text_area.textContent = "the sisters were ancient, even then. \n I remember their long skirts and small steps, \n moving slowly, voices crackling with delight.";}
 
 
         if (compassHeading >= 45 && compassHeading <= 135)
-             {text_area.textContent = "110 \n you are still";}
+             {text_area.textContent = "East, to flatter, straighter roads";}
 
 
         if (compassHeading >= 135 && compassHeading <= 225)
-             {text_area.textContent = "222 \n you are burning";}
+             {text_area.textContent = "The one wooden chair \n I could see through the back door window \n faced me \n South.";}
          
 
         if (compassHeading >= 225 && compassHeading <= 315)
-             {text_area.textContent = "300 \n you are blowing";}
+             {text_area.textContent = "2 years ago I had walked onto the back porch \n with my mother and father. Some wooden slats \n framed holes in the floor that gaped clear to the foundation. \n A rooster cries.";}
 
 
         //calls function to alter content based on heading
