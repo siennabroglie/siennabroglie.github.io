@@ -16,7 +16,6 @@ oriented = function(e) {
             {text_area.textContent = compassHeading;}
 
 
-
         if (compassHeading >= 315 || compassHeading <= 45)
             {text_area.textContent = "22, you are frozen";}
 
@@ -25,11 +24,11 @@ oriented = function(e) {
              {text_area.textContent = "110, you are still";}
 
 
-         if (compassHeading >= 135 && compassHeading <= 225)
+        if (compassHeading >= 135 && compassHeading <= 225)
              {text_area.textContent = "222, you are burning";}
          
 
-          if (compassHeading >= 225 && compassHeading <= 315)
+        if (compassHeading >= 225 && compassHeading <= 315)
              {text_area.textContent = "300, you are blowing";}
 
 
