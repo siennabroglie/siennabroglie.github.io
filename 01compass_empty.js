@@ -12,8 +12,10 @@ oriented = function(e) {
         //additions
         //|| or, && and, == 
 
-        if (compassHeading) >= 1 && compassHeading <= 360)
+        if (compassHeading >= 1 && compassHeading <= 360) 
             {text_area.textContent = compassHeading;}
+
+
 
         if (compassHeading >= 315 || compassHeading <= 45)
             {text_area.textContent = "22, you are frozen";}
