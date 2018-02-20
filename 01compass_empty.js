@@ -11,23 +11,24 @@ oriented = function(e) {
         
         //additions
         //|| or, && and, == 
-        text_area.textContent = compassHeading;
 
+        if (compassHeading) >= 1 && compassHeading <= 360)
+            {text_area.textContent = compassHeading}
 
         if (compassHeading >= 315 || compassHeading <= 45)
-            {text_area.textContent = "north";}
+            {text_area.textContent = "22, you are frozen";}
 
 
         if (compassHeading >= 45 && compassHeading <= 135)
-             {text_area.textContent = "east";}
+             {text_area.textContent = "110, you are still";}
 
 
          if (compassHeading >= 135 && compassHeading <= 225)
-             {text_area.textContent = "south";}
+             {text_area.textContent = "222, you are burning";}
          
 
           if (compassHeading >= 225 && compassHeading <= 315)
-             {text_area.textContent = "west";}
+             {text_area.textContent = "300, you are blowing";}
 
 
         //calls function to alter content based on heading
@@ -48,5 +49,6 @@ var text_area = document.getElementById("compass_content");
             text_area.textContent = "empty compass";
         
 	}
+
 
 
