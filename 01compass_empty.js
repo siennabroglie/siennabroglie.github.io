@@ -17,19 +17,19 @@ oriented = function(e) {
 
 
         if (compassHeading >= 315 || compassHeading <= 45)
-            {text_area.textContent = "the sisters were ancient, even then. \n I remember their long skirts and small steps, \n moving slowly, voices crackling with delight.";}
+            {text_area.textContent = " NORTH \n - \n does not really exist \n eather does not exist, electromagnetic waves have no medium \n the speed of light is the same to all viewers and not relative ";}
 
 
         if (compassHeading >= 45 && compassHeading <= 135)
-             {text_area.textContent = "East, to flatter, straighter roads";}
+             {text_area.textContent = " EAST \n - \n does not really exist \n light has a fixed constant speed independent of any state of motion \n the principle of invarient light speed ";}
 
 
         if (compassHeading >= 135 && compassHeading <= 225)
-             {text_area.textContent = "The one wooden chair \n I could see through the back door window \n faced me \n South.";}
+             {text_area.textContent = " SOUTH \n - \n does not really exist \n physical laws are independent of the inertial system \n the principle of relativity ";}
          
 
         if (compassHeading >= 225 && compassHeading <= 315)
-             {text_area.textContent = "2 years ago I had walked onto the back porch \n with my mother and father. Some wooden slats \n framed holes in the floor that gaped clear to the foundation. \n A rooster cries.";}
+             {text_area.textContent = " WEST \n - \n does not really exist \n there is no way to measure a[the] fixed central point of our universe \n the principle of special relativity ";}
 
 
         //calls function to alter content based on heading
